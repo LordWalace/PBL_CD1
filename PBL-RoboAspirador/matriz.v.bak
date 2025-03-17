@@ -1,0 +1,32 @@
+module display(Alto, Medio, Baixo, D1, D2, D3, A7, B7, C7, D7, E7, F7, G7);
+	
+	input Alto, Medio, Baixo;
+	output D1, D2, D3, A7, B7, C7, D7, E7, F7, G7;
+
+	not(D1, 0);
+	not(D2, 0);
+	not(D3, 0);
+	
+	// A - B - C
+	
+	// a = Baixo!Alto + !Medio!Alto
+	and(a1, Baixo, !Alto);
+	and(a2, !Medio, !Alto);
+	or(a1, a2);
+	
+	// b = Medio!Alto + Baixo!Alto
+	
+	// c = Medio!Alto + Baixo!Medio
+	
+	// d = !Medio!Alto
+	not(d1, Medio);
+	not(d2, Alto);
+	and(d1, d2);
+	// e = 
+	and();
+	// f = 
+	
+	// g = !Baixo!Medio!Alto
+	
+
+endmodule 

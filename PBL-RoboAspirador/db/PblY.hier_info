@@ -1,0 +1,74 @@
+|leds
+LD => LD.IN1
+E => E.IN1
+D => D.IN1
+F => F.IN1
+A => A.IN1
+Alto => comb.DATAIN
+Alto => comb.DATAIN
+Alto => comb.DATAIN
+Alto => comb.DATAIN
+Alto => comb.DATAIN
+Alto => aux.IN0
+Medio => comb.DATAIN
+Medio => comb.DATAIN
+Medio => comb.DATAIN
+Medio => comb.DATAIN
+Medio => aux.IN1
+Baixo => comb.DATAIN
+Baixo => comb.IN1
+L0 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L1 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L2 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L3 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L4 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L5 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L6 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L7 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L8 << comb.DB_MAX_OUTPUT_PORT_TYPE
+L9 << comb.DB_MAX_OUTPUT_PORT_TYPE
+ErroOut << comb.DB_MAX_OUTPUT_PORT_TYPE
+LRGB_Out << comb.DB_MAX_OUTPUT_PORT_TYPE
+D1 << display:comb_23.port6
+D2 << display:comb_23.port7
+D3 << display:comb_23.port8
+D4 << display:comb_23.port9
+A7 << display:comb_23.port10
+B7 << display:comb_23.port11
+C7 << display:comb_23.port12
+D7 << display:comb_23.port13
+E7 << display:comb_23.port14
+F7 << display:comb_23.port15
+G7 << display:comb_23.port16
+
+
+|leds|display:comb_23
+E => WideAnd0.IN0
+E => and_B0_2.IN0
+D => WideAnd0.IN1
+D => aux_B1.IN0
+D => and_B0_1.IN0
+F => WideAnd0.IN2
+F => and_B0_1.IN1
+F => and_B0_2.IN1
+F => aux_B1.IN1
+A => WideAnd0.IN3
+LD => D4.DATAIN
+Erro => out_B2.IN1
+Erro => out_B0.IN1
+Erro => WideAnd0.IN4
+Erro => out_B1.IN1
+Erro => aux_B0_0.IN1
+D1 <= <VCC>
+D2 <= <VCC>
+D3 <= <VCC>
+D4 <= LD.DB_MAX_OUTPUT_PORT_TYPE
+A7 <= and1.DB_MAX_OUTPUT_PORT_TYPE
+B7 <= or0.DB_MAX_OUTPUT_PORT_TYPE
+C7 <= or1.DB_MAX_OUTPUT_PORT_TYPE
+D7 <= and5.DB_MAX_OUTPUT_PORT_TYPE
+E7 <= and6.DB_MAX_OUTPUT_PORT_TYPE
+F7 <= or2.DB_MAX_OUTPUT_PORT_TYPE
+G7 <= <GND>
+
+

@@ -1,0 +1,9 @@
+module display(D1, D2, D3, a, b, c, d, e, f, g);
+	output D1, D2, D3, a, b, c, d, e, f, g;
+
+	not(D1, 0);
+	not(D2, 0);
+	not(D3, 0);
+
+
+endmodule 

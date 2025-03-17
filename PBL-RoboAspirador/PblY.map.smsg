@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at pbl.v(3): object "A" differs only in case from object "a" in the same scope File: C:/Users/Walace/Documents/MI - CD - PBL/pbl.v Line: 3
+Info (10281): Verilog HDL Declaration information at pbl.v(3): object "D" differs only in case from object "d" in the same scope File: C:/Users/Walace/Documents/MI - CD - PBL/pbl.v Line: 3
+Info (10281): Verilog HDL Declaration information at pbl.v(3): object "E" differs only in case from object "e" in the same scope File: C:/Users/Walace/Documents/MI - CD - PBL/pbl.v Line: 3
+Info (10281): Verilog HDL Declaration information at pbl.v(3): object "F" differs only in case from object "f" in the same scope File: C:/Users/Walace/Documents/MI - CD - PBL/pbl.v Line: 3
